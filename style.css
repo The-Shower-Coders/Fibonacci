@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.center {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.inp {
+    width: fit-content;
+    height: 50px;
+    /* Center vertically */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inp * {
+    text-align: center;
+}
+
+.inp input {
+    width: 210px;
+    height: 50px;
+}
+
+.inp div {
+    width: 200px;
+    height: 50px;
+}
